@@ -5,7 +5,7 @@ import getpass
 
 xuser = str(getpass.getuser())
 filepath = str('C://Users//'+xuser+'//Desktop//msg.hta')
-backpath = str('file:///C:/Users/'+xuser+'/Desktop/msg/img/xmas.png')
+backpath = str('https://github.com/alectramell/msg/raw/master/img/bg.png')
 xdata = str('Merry Christmas!!!')
 xdocument = '''
 <HTA:application
