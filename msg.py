@@ -4,7 +4,7 @@ import time
 import getpass
 
 xuser = str(getpass.getuser())
-filepath = str('C://Users//'+xuser+'//Desktop//msg.hta')
+filepath = str('C://Users//'+xuser+'//Desktop//GIFT.hta')
 backpath = str('https://github.com/alectramell/msg/raw/master/img/bg.png')
 xdata = str('''<font face="arial" color="#29ff34" size="6"><b>MERRY CHRISTMAS!!!</b></font></b><br />from <b>Tramell Software Development!</b><br /><br /><font color="#00c3ff" size="4"><b>90% Off Full-Site Custom Web-Design</b></font><br /><font color="#ffffff" size="3"><b>[coupon-code]:</b> 1234567890</font>''')
 xdocument = '''
