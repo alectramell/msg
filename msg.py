@@ -6,7 +6,7 @@ import getpass
 xuser = str(getpass.getuser())
 filepath = str('C://Users//'+xuser+'//Desktop//msg.hta')
 backpath = str('https://github.com/alectramell/msg/raw/master/img/bg.png')
-xdata = str('''<b><font color="#29ff34" size="5">MERRY CHRISTMAS!!!</font></b><br />from Tramell Software Development!''')
+xdata = str('''<font color="#29ff34" size="5"><b>MERRY CHRISTMAS!!!</b></font></b><br />from <b>Tramell Software Development!</b><br /><br /><font color="#00c3ff"><b>90% Off Full-Site Custom Web-Design</b></font><br /><font color="#ffffff"><b>[item-code]</b></font>''')
 xdocument = '''
 <HTA:application
 
