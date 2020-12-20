@@ -6,7 +6,7 @@ import getpass
 xuser = str(getpass.getuser())
 filepath = str('C://Users//'+xuser+'//Desktop//msg.hta')
 backpath = str('https://github.com/alectramell/msg/raw/master/img/bg.png')
-xdata = str('''<font color="#29ff34" size="5"><b>MERRY CHRISTMAS!!!</b></font></b><br />from <b>Tramell Software Development!</b><br /><br /><font color="#00c3ff"><b>90% Off Full-Site Custom Web-Design</b></font><br /><font color="#ffffff"><b>[item-code]</b></font>''')
+xdata = str('''<font face="arial" color="#29ff34" size="6"><b>MERRY CHRISTMAS!!!</b></font></b><br />from <b>Tramell Software Development!</b><br /><br /><font color="#00c3ff" size="4"><b>90% Off Full-Site Custom Web-Design</b></font><br /><font color="#ffffff" size="3"><b>[coupon-code]:</b> 1234567890</font>''')
 xdocument = '''
 <HTA:application
 
@@ -71,11 +71,28 @@ WebApp v1.0
 		cursor:arrow;
 	}
 
+	#facebookLink {
+
+		position:absolute;
+		bottom:10px;
+		left:157px;
+		padding:5px 5px;
+		margins:5px 5px;
+		font-family:arial;
+		font-size:12px;
+		color:#ffffff;
+		text-decoration:bold;
+		underline:none;
+		cursor:pointer;
+	}
+
 </style>
 
 <font id="exitButton" onclick="exitApp();">close</font>
 
 <font id="mainText">'''+xdata+'''</font>
+
+<a id="facebookLink" href="https://www.facebook.com/tramelldev" target="_new">www.facebook.com/tramelldev</a>
 
 </body>
 </html>
